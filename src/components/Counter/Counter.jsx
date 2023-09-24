@@ -35,7 +35,7 @@ const Counter = () => {
   ]
 
   return (
-    <div className="container pt-[170px] flex justify-between">
+    <div className="container pt-web md:flex grid grid-cols-2 justify-between gap-y-10  ">
       {
         items.map((item, index) => <CounterItem key={index} title={item.title} desc={item.desc} svg={item.svg} />)
       }

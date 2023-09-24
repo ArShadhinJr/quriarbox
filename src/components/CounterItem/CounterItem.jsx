@@ -2,7 +2,7 @@ import React from 'react'
 
 const CounterItem = (props) => {
   return (
-    <div className='w-1/5 text-center'>
+    <div className='md:w-1/5 text-center hover:bg-orange-100 p-5 hover:rounded-md '>
           <div className='grid place-content-center'>
               <div className='w-[60px] h-[60px]' >
               <img className='inline-block' src={props.svg}  />

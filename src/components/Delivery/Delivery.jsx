@@ -1,8 +1,8 @@
 import Player from '../../assets/player.png'
 const Delivery = () => {
   return (
-    <div className='container pt-[170px]'>
-          <div className='bg-delivery bg-cover bg-center bg-no-repeat rounded-2xl pt-[126px] pb-[168px] grid place-content-center z-10 after  after:bg-opacity-70 after:rounded-2xl'>
+    <div className='container pt-web'>
+          <div className='bg-delivery bg-cover bg-center bg-no-repeat rounded-2xl pt-[126px] pb-web grid place-content-center z-10 after  after:bg-opacity-70 after:rounded-2xl'>
               
               <div className='text-center'>
                   <img className='inline-block' src={Player} />

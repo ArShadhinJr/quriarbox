@@ -29,17 +29,16 @@ const Header = () => {
             </div>
           </div> */}
           <div className='container '>
-            <div className="cross  "></div>
             <div className={` ${!toggle ? "flex" : "flex-block"} justify-between items-center xl:py-[27px] md:py-[17px] py-[14px]`}>
-                <div className="xl:w-1/5">
+                <div className="lg:w-1/5">
                     <img src={logo} className={` ${!toggle ? "block" : "hidden"}`}/>
                 </div>
-                <div className={`xl:w-4/5 ${!toggle ? "block" : "flex justify-between"}`} >
+                <div className={`lg:w-4/5 ${!toggle ? "block" : "flex justify-between"}`} >
                       
-                  <p className={`font-bold xl:text-4xl md:text-2xl text-xl xl:hidden block text-primary ${!toggle ? "order-1": "order-2"}`} onClick={() => setToggle( !toggle )}>{!toggle ? <FaBars /> : <RxCross2 />}</p>
-                      <div className={`${!toggle ? "hidden" : "block "} xl:block min-w-[140px]`}>
+                  <p className={`font-bold xl:text-4xl md:text-2xl text-xl lg:hidden block text-primary ${!toggle ? "order-1": "order-2"}`} onClick={() => setToggle( !toggle )}>{!toggle ? <FaBars /> : <RxCross2 />}</p>
+                      <div className={`${!toggle ? "hidden" : "block "} lg:block min-w-[140px]`}>
                         <img src={logo} className={`${!toggle ? "hidden" : "block"}`}/>
-                        <ul className= {`text-gray-500 py-2 font-semibold xl:flex  gap-x-[47px] items-center justify-end `} >
+                        <ul className= {`text-gray-500 py-2 font-semibold lg:flex  gap-x-[47px] items-center justify-end `} >
                             <li className='hover:text-primary py-2 '>
                                 Home
                             </li>

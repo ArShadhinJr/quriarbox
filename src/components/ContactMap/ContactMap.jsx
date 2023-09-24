@@ -12,14 +12,14 @@ import { BsTelephone } from 'react-icons/bs'
 
 const ContactMap = () => {
   return (
-    <div className="container py-[170px]">
+    <div className="container pt-web pb-web">
           <CompHead title='FIND US' desc='Access us easily' />
-          <div className="flex gap-x-5">
+          <div className="md:flex gap-x-5">
               
-              <div className="w-7/12">
+              <div className="md:w-7/12">
               <img src={Map} className="w-full h-full rounded-xl"/>
             </div>
-            <div className="w-5/12 p-[88px] rounded-xl bg-[#FEFCFA]">
+            <div className="md:w-5/12 p-[88px] rounded-xl bg-[#FEFCFA]">
                   <h2 className="font-black text-[20px] mb-[37px]">Contact with us</h2>
                   <p className="mb-[18px]"><FiMapPin className="text-primary inline mr-3"/> 2277 Lorem Ave, San Diego, CA 22553</p>
                   <p className="mb-[18px]"><LuClock3 className="text-primary inline mr-3"/>Monday - Friday: 10 am - 10pm

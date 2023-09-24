@@ -3,15 +3,15 @@ import { BiLogoTelegram } from 'react-icons/bi';
 
 const Contact = () => {
   return (
-      <div className='container pt-[170px]'>
-          <div className='w-8/12 mx-auto flex items-center gap-x-6'>
-              <div className='w-6/12'>
-                  <img className='inline-block' src={Sms} />
+      <div className='container pt-web'>
+          <div className='md:w-8/12 mx-auto md:flex items-center gap-x-6'>
+              <div className='md:w-6/12 text-center md:text-start md:mb-0 mb-5'>
+                  <img className='inline-block ' src={Sms} />
                   <h4 className='text-primary text-[24px] font-bold'>REQUEST A CALLBACK</h4>
                   <h3 className='text-black mb-[30px] pt-[20px] pb-[9px] text-[40px]'>We will contact in the shortest time.</h3>
                   <p className='text-gray-800 text-[25px] '>Monday to Friday, 9am-5pm.</p>
                 </div>
-                <div className='w-6/12'>
+                <div className='md:w-6/12'>
                   <form>
                     <input className='w-full px-[20px] py-[15px] bg-transparent rounded-lg border border-gray-400' type="text" placeholder='Name' />
                     <input className='w-full px-[20px] py-[15px] bg-transparent rounded-lg border border-gray-400 my-[16px]' type="email" placeholder='Email' />
