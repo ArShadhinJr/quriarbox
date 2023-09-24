@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 rounded transition font-black outline-0 duration-500;
+  }
+  .btn-orange {
+    @apply bg-orange-600 text-white hover:bg-white hover:text-orange-600  ; 
+  }
+  .btn-orange2 {
+    @apply bg-white text-orange-600 hover:bg-orange-600 hover:text-white  ; 
+  }
+  .text-1 {
+    @apply xl:text-6xl md:text-4xl sm:text-2xl text-xs; 
+  }
+  .container {
+    @apply 2xl:w-w2xl xl:w-wxl lg:w-wlg md:w-wmd sm:w-wsm max-w-wall mx-auto ; 
+  }
+  .after {
+    @apply relative after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-black after:bg-opacity-20 after:z-[-1]; 
+  }
+}
+
+@tailwind components;
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
