@@ -1,8 +1,8 @@
 import CompHead from '../CompHead/CompHead'
 import ServiceItem from '../ServiceItem/ServiceItem'
-import BagSer from '../../assets/BagSer.svg'
-import HouseSer from '../../assets/HouseSer.svg'
-import DocSer from '../../assets/DocSer.svg'
+import BagSer from '../../assets/bagSer.svg'
+import HouseSer from '../../assets/houseSer.svg'
+import DocSer from '../../assets/docSer.svg'
 
 const Services = () => {
   let serItems = [
