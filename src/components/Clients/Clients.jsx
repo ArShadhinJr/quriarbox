@@ -4,7 +4,7 @@ import Client from '../../assets/client.png'
 
 const Clients = () => {
   return (
-      <div className='container pt-[170px] after after:bg-quote after:bg-no-repeat after:bg-opacity-0 after:top-[130px] after:left-[300px]'>
+      <div className='container pt-[170px] after after:bg-quote after:bg-no-repeat after:bg-opacity-0 after:top-[130px] after:left-[300px] overflow-hidden' >
           <CompHead title='TESTIMONIAL' desc='Our Awesome Clients' />
           <div className='w-8/12 mx-auto bg-white rounded-2xl py-[40px] px-[18px]'>
               <h3 className='text-primary text-[25px] font-bold'>Fantastic service!</h3>
