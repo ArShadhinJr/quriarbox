@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/Logo.png'
 import { BsSearch } from 'react-icons/bs'
 
 const Header = () => {
