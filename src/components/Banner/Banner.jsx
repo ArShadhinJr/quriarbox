@@ -1,4 +1,4 @@
-import BannerImg from '../../assets/banner.png'
+import BannerImg from '../../assets/banner.png' 
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Banner = () => {
